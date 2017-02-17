@@ -15,3 +15,9 @@ $ react-native run-ios
 ```sh
 $ react-native start
 ```
+# Generar APK
+Detalle en https://facebook.github.io/react-native/docs/signed-apk-android.html.
+Para instalar APK en dispositivo:
+```
+$ adb install -r ./app/build/outputs/apk/app-release-unsigned.apk
+```
